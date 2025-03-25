@@ -29,6 +29,8 @@ python -m uvicorn filtrado_post:app --reload --host 0.0.0.0 --port 8070
 
 ## Correr el proyecto de Laravel 
 ```bash
+php artisan migrate 
+
 php artisan serve 
 ```
 Abrilo en el navegador:
