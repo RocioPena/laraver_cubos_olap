@@ -35,5 +35,5 @@ php artisan serve
 ```
 Abrilo en el navegador:
 
-http://127.0.0.1:8000/consultar-clues
+http://127.0.0.1:8000
 
