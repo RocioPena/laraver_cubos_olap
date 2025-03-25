@@ -1,0 +1,53 @@
+CATALOG_NAME,SCHEMA_NAME,CUBE_NAME,DIMENSION_UNIQUE_NAME,HIERARCHY_NAME,HIERARCHY_UNIQUE_NAME,HIERARCHY_GUID,HIERARCHY_CAPTION,DIMENSION_TYPE,HIERARCHY_CARDINALITY,DEFAULT_MEMBER,ALL_MEMBER,DESCRIPTION,STRUCTURE,IS_VIRTUAL,IS_READWRITE,DIMENSION_UNIQUE_SETTINGS,DIMENSION_MASTER_UNIQUE_NAME,DIMENSION_IS_VISIBLE,HIERARCHY_ORDINAL,DIMENSION_IS_SHARED,HIERARCHY_IS_VISIBLE,HIERARCHY_ORIGIN,HIERARCHY_DISPLAY_FOLDER,INSTANCE_SELECTION,GROUPING_BEHAVIOR
+SIS_2024,,$DIM MODULO,[DIM MODULO],Módulo,[DIM MODULO].[Módulo],,Módulo,3,31.0,[DIM MODULO].[Módulo].[All],[DIM MODULO].[Módulo].[All],,0,False,False,1,,True,1.0,True,True,6,,0.0,1
+SIS_2024,,$DIM MODULO,[Measures],Measures,[Measures],,Measures,2,1.0,[Measures].[DIM MODULO],,,0,False,False,1,,True,1.0,True,True,6,,0.0,1
+SIS_2024,,$DIM TIEMPO,[DIM TIEMPO],Año,[DIM TIEMPO].[Año],,Año,3,3.0,[DIM TIEMPO].[Año].[All],[DIM TIEMPO].[Año].[All],,0,False,False,1,,True,3.0,True,True,2,,0.0,1
+SIS_2024,,$DIM TIEMPO,[DIM TIEMPO],Mes,[DIM TIEMPO].[Mes],,Mes,3,14.0,[DIM TIEMPO].[Mes].[All],[DIM TIEMPO].[Mes].[All],,0,False,False,1,,True,2.0,True,True,2,,0.0,1
+SIS_2024,,$DIM TIEMPO,[DIM TIEMPO],PERIODO,[DIM TIEMPO].[PERIODO],,PERIODO,3,14.0,[DIM TIEMPO].[PERIODO].[All],[DIM TIEMPO].[PERIODO].[All],,0,False,False,1,,True,1.0,True,False,6,,0.0,1
+SIS_2024,,$DIM TIEMPO,[Measures],Measures,[Measures],,Measures,2,1.0,[Measures].[DIM TIEMPO],,,0,False,False,1,,True,1.0,True,True,6,,0.0,1
+SIS_2024,,$DIM UNIDAD,[DIM UNIDAD],CLUES,[DIM UNIDAD].[CLUES],,CLUES,3,15493.0,[DIM UNIDAD].[CLUES].[All],[DIM UNIDAD].[CLUES].[All],,0,False,False,1,,True,13.0,True,True,2,,0.0,1
+SIS_2024,,$DIM UNIDAD,[DIM UNIDAD],CVECLUES,[DIM UNIDAD].[CVECLUES],,CVECLUES,3,15493.0,[DIM UNIDAD].[CVECLUES].[All],[DIM UNIDAD].[CVECLUES].[All],,0,False,False,1,,True,2.0,True,False,6,,0.0,1
+SIS_2024,,$DIM UNIDAD,[DIM UNIDAD],Entidad,[DIM UNIDAD].[Entidad],,Entidad,3,34.0,[DIM UNIDAD].[Entidad].[All],[DIM UNIDAD].[Entidad].[All],,0,False,False,1,,True,5.0,True,True,2,,0.0,1
+SIS_2024,,$DIM UNIDAD,[DIM UNIDAD],Informe,[DIM UNIDAD].[Informe],,Informe,3,8.0,[DIM UNIDAD].[Informe].[All],[DIM UNIDAD].[Informe].[All],,0,False,False,1,,True,12.0,True,True,2,,0.0,1
+SIS_2024,,$DIM UNIDAD,[DIM UNIDAD],Institución,[DIM UNIDAD].[Institución],,Institución,3,7.0,[DIM UNIDAD].[Institución].[All],[DIM UNIDAD].[Institución].[All],,0,False,False,1,,True,3.0,True,True,2,,0.0,1
+SIS_2024,,$DIM UNIDAD,[DIM UNIDAD],Jurisdicción,[DIM UNIDAD].[Jurisdicción],,Jurisdicción,3,241.0,[DIM UNIDAD].[Jurisdicción].[All],[DIM UNIDAD].[Jurisdicción].[All],,0,False,False,1,,True,4.0,True,False,2,,0.0,1
+SIS_2024,,$DIM UNIDAD,[DIM UNIDAD],Municipio,[DIM UNIDAD].[Municipio],,Municipio,3,2109.0,[DIM UNIDAD].[Municipio].[All],[DIM UNIDAD].[Municipio].[All],,0,False,False,1,,True,6.0,True,False,2,,0.0,1
+SIS_2024,,$DIM UNIDAD,[DIM UNIDAD],Programa,[DIM UNIDAD].[Programa],,Programa,3,7.0,[DIM UNIDAD].[Programa].[All],[DIM UNIDAD].[Programa].[All],,0,False,False,1,,True,10.0,True,True,2,,0.0,1
+SIS_2024,,$DIM UNIDAD,[DIM UNIDAD],Programa PU013,[DIM UNIDAD].[Programa PU013],,Programa PU013,3,4.0,[DIM UNIDAD].[Programa PU013].[All],[DIM UNIDAD].[Programa PU013].[All],,0,False,False,1,,True,11.0,True,True,2,,0.0,1
+SIS_2024,,$DIM UNIDAD,[DIM UNIDAD],Tipo de Unidad,[DIM UNIDAD].[Tipo de Unidad],,Tipo de Unidad,3,5.0,[DIM UNIDAD].[Tipo de Unidad].[All],[DIM UNIDAD].[Tipo de Unidad].[All],,0,False,False,1,,True,7.0,True,True,2,,0.0,1
+SIS_2024,,$DIM UNIDAD,[DIM UNIDAD],Tipología,[DIM UNIDAD].[Tipología],,Tipología,3,37.0,[DIM UNIDAD].[Tipología].[All],[DIM UNIDAD].[Tipología].[All],,0,False,False,1,,True,8.0,True,True,2,,0.0,1
+SIS_2024,,$DIM UNIDAD,[DIM UNIDAD],Unidad Medica,[DIM UNIDAD].[Unidad Medica],,Unidad Medica,3,15493.0,[DIM UNIDAD].[Unidad Medica].[All],[DIM UNIDAD].[Unidad Medica].[All],,0,False,False,1,,True,9.0,True,False,2,,0.0,1
+SIS_2024,,$DIM UNIDAD,[DIM UNIDAD],Unidad Médica,[DIM UNIDAD].[Unidad Médica],,Unidad Médica,3,33366.0,[DIM UNIDAD].[Unidad Médica].[All],[DIM UNIDAD].[Unidad Médica].[All],,0,False,False,1,,True,1.0,True,True,1,,,1
+SIS_2024,,$DIM UNIDAD,[Measures],Measures,[Measures],,Measures,2,1.0,[Measures].[DIM UNIDAD],,,0,False,False,1,,True,1.0,True,True,6,,0.0,1
+SIS_2024,,$DIM VARIABLES,[DIM VARIABLES],APARTADO,[DIM VARIABLES].[APARTADO],,APARTADO,3,312.0,[DIM VARIABLES].[APARTADO].[All],[DIM VARIABLES].[APARTADO].[All],,0,False,False,1,,True,3.0,True,False,2,,0.0,1
+SIS_2024,,$DIM VARIABLES,[DIM VARIABLES],Apartado y Variable,[DIM VARIABLES].[Apartado y Variable],,Apartado y Variable,3,7185.0,[DIM VARIABLES].[Apartado y Variable].[All],[DIM VARIABLES].[Apartado y Variable].[All],,0,False,False,1,,True,1.0,True,True,1,,,1
+SIS_2024,,$DIM VARIABLES,[DIM VARIABLES],CLAVE,[DIM VARIABLES].[CLAVE],,CLAVE,3,6874.0,[DIM VARIABLES].[CLAVE].[All],[DIM VARIABLES].[CLAVE].[All],,0,False,False,1,,True,2.0,True,False,6,,0.0,1
+SIS_2024,,$DIM VARIABLES,[DIM VARIABLES],Variable,[DIM VARIABLES].[Variable],,Variable,3,6874.0,[DIM VARIABLES].[Variable].[All],[DIM VARIABLES].[Variable].[All],,0,False,False,1,,True,4.0,True,True,2,,0.0,1
+SIS_2024,,$DIM VARIABLES,[DIM VARIABLES],Variables No Acumulables,[DIM VARIABLES].[Variables No Acumulables],,Variables No Acumulables,3,4.0,[DIM VARIABLES].[Variables No Acumulables].[All],[DIM VARIABLES].[Variables No Acumulables].[All],,0,False,False,1,,True,5.0,True,True,2,,0.0,1
+SIS_2024,,$DIM VARIABLES,[Measures],Measures,[Measures],,Measures,2,1.0,[Measures].[DIM VARIABLES],,,0,False,False,1,,True,1.0,True,True,6,,0.0,1
+SIS_2024,,$DIM_ORIGEN,[DIM_ORIGEN],Origen de la Información,[DIM_ORIGEN].[Origen de la Información],,Origen de la Información,3,5.0,[DIM_ORIGEN].[Origen de la Información].[All],[DIM_ORIGEN].[Origen de la Información].[All],,0,False,False,1,,True,1.0,True,True,6,,0.0,1
+SIS_2024,,$DIM_ORIGEN,[Measures],Measures,[Measures],,Measures,2,1.0,[Measures].[DIM_ORIGEN],,,0,False,False,1,,True,1.0,True,True,6,,0.0,1
+SIS_2024,,SIS_2024,[DIM MODULO],Módulo,[DIM MODULO].[Módulo],,Módulo,3,31.0,[DIM MODULO].[Módulo].[All],[DIM MODULO].[Módulo].[All],,0,False,False,1,,True,1.0,True,True,6,,0.0,1
+SIS_2024,,SIS_2024,[DIM TIEMPO],Año,[DIM TIEMPO].[Año],,Año,3,3.0,[DIM TIEMPO].[Año].[All],[DIM TIEMPO].[Año].[All],,0,False,False,1,,True,3.0,True,True,2,,0.0,1
+SIS_2024,,SIS_2024,[DIM TIEMPO],Mes,[DIM TIEMPO].[Mes],,Mes,3,14.0,[DIM TIEMPO].[Mes].[All],[DIM TIEMPO].[Mes].[All],,0,False,False,1,,True,2.0,True,True,2,,0.0,1
+SIS_2024,,SIS_2024,[DIM TIEMPO],PERIODO,[DIM TIEMPO].[PERIODO],,PERIODO,3,14.0,[DIM TIEMPO].[PERIODO].[All],[DIM TIEMPO].[PERIODO].[All],,0,False,False,1,,True,1.0,True,False,6,,0.0,1
+SIS_2024,,SIS_2024,[DIM UNIDAD],CLUES,[DIM UNIDAD].[CLUES],,CLUES,3,15493.0,[DIM UNIDAD].[CLUES].[All],[DIM UNIDAD].[CLUES].[All],,0,False,False,1,,True,13.0,True,True,2,,0.0,1
+SIS_2024,,SIS_2024,[DIM UNIDAD],CVECLUES,[DIM UNIDAD].[CVECLUES],,CVECLUES,3,15493.0,[DIM UNIDAD].[CVECLUES].[All],[DIM UNIDAD].[CVECLUES].[All],,0,False,False,1,,True,2.0,True,False,6,,0.0,1
+SIS_2024,,SIS_2024,[DIM UNIDAD],Entidad,[DIM UNIDAD].[Entidad],,Entidad,3,34.0,[DIM UNIDAD].[Entidad].[All],[DIM UNIDAD].[Entidad].[All],,0,False,False,1,,True,5.0,True,True,2,,0.0,1
+SIS_2024,,SIS_2024,[DIM UNIDAD],Informe,[DIM UNIDAD].[Informe],,Informe,3,8.0,[DIM UNIDAD].[Informe].[All],[DIM UNIDAD].[Informe].[All],,0,False,False,1,,True,12.0,True,True,2,,0.0,1
+SIS_2024,,SIS_2024,[DIM UNIDAD],Institución,[DIM UNIDAD].[Institución],,Institución,3,7.0,[DIM UNIDAD].[Institución].[All],[DIM UNIDAD].[Institución].[All],,0,False,False,1,,True,3.0,True,True,2,,0.0,1
+SIS_2024,,SIS_2024,[DIM UNIDAD],Jurisdicción,[DIM UNIDAD].[Jurisdicción],,Jurisdicción,3,241.0,[DIM UNIDAD].[Jurisdicción].[All],[DIM UNIDAD].[Jurisdicción].[All],,0,False,False,1,,True,4.0,True,False,2,,0.0,1
+SIS_2024,,SIS_2024,[DIM UNIDAD],Municipio,[DIM UNIDAD].[Municipio],,Municipio,3,2109.0,[DIM UNIDAD].[Municipio].[All],[DIM UNIDAD].[Municipio].[All],,0,False,False,1,,True,6.0,True,False,2,,0.0,1
+SIS_2024,,SIS_2024,[DIM UNIDAD],Programa,[DIM UNIDAD].[Programa],,Programa,3,7.0,[DIM UNIDAD].[Programa].[All],[DIM UNIDAD].[Programa].[All],,0,False,False,1,,True,10.0,True,True,2,,0.0,1
+SIS_2024,,SIS_2024,[DIM UNIDAD],Programa PU013,[DIM UNIDAD].[Programa PU013],,Programa PU013,3,4.0,[DIM UNIDAD].[Programa PU013].[All],[DIM UNIDAD].[Programa PU013].[All],,0,False,False,1,,True,11.0,True,True,2,,0.0,1
+SIS_2024,,SIS_2024,[DIM UNIDAD],Tipo de Unidad,[DIM UNIDAD].[Tipo de Unidad],,Tipo de Unidad,3,5.0,[DIM UNIDAD].[Tipo de Unidad].[All],[DIM UNIDAD].[Tipo de Unidad].[All],,0,False,False,1,,True,7.0,True,True,2,,0.0,1
+SIS_2024,,SIS_2024,[DIM UNIDAD],Tipología,[DIM UNIDAD].[Tipología],,Tipología,3,37.0,[DIM UNIDAD].[Tipología].[All],[DIM UNIDAD].[Tipología].[All],,0,False,False,1,,True,8.0,True,True,2,,0.0,1
+SIS_2024,,SIS_2024,[DIM UNIDAD],Unidad Medica,[DIM UNIDAD].[Unidad Medica],,Unidad Medica,3,15493.0,[DIM UNIDAD].[Unidad Medica].[All],[DIM UNIDAD].[Unidad Medica].[All],,0,False,False,1,,True,9.0,True,False,2,,0.0,1
+SIS_2024,,SIS_2024,[DIM UNIDAD],Unidad Médica,[DIM UNIDAD].[Unidad Médica],,Unidad Médica,3,33366.0,[DIM UNIDAD].[Unidad Médica].[All],[DIM UNIDAD].[Unidad Médica].[All],,0,False,False,1,,True,1.0,True,True,1,,,1
+SIS_2024,,SIS_2024,[DIM VARIABLES],APARTADO,[DIM VARIABLES].[APARTADO],,APARTADO,3,312.0,[DIM VARIABLES].[APARTADO].[All],[DIM VARIABLES].[APARTADO].[All],,0,False,False,1,,True,3.0,True,False,2,,0.0,1
+SIS_2024,,SIS_2024,[DIM VARIABLES],Apartado y Variable,[DIM VARIABLES].[Apartado y Variable],,Apartado y Variable,3,7185.0,[DIM VARIABLES].[Apartado y Variable].[All],[DIM VARIABLES].[Apartado y Variable].[All],,0,False,False,1,,True,1.0,True,True,1,,,1
+SIS_2024,,SIS_2024,[DIM VARIABLES],CLAVE,[DIM VARIABLES].[CLAVE],,CLAVE,3,6874.0,[DIM VARIABLES].[CLAVE].[All],[DIM VARIABLES].[CLAVE].[All],,0,False,False,1,,True,2.0,True,False,6,,0.0,1
+SIS_2024,,SIS_2024,[DIM VARIABLES],Variable,[DIM VARIABLES].[Variable],,Variable,3,6874.0,[DIM VARIABLES].[Variable].[All],[DIM VARIABLES].[Variable].[All],,0,False,False,1,,True,4.0,True,True,2,,0.0,1
+SIS_2024,,SIS_2024,[DIM VARIABLES],Variables No Acumulables,[DIM VARIABLES].[Variables No Acumulables],,Variables No Acumulables,3,4.0,[DIM VARIABLES].[Variables No Acumulables].[All],[DIM VARIABLES].[Variables No Acumulables].[All],,0,False,False,1,,True,5.0,True,True,2,,0.0,1
+SIS_2024,,SIS_2024,[DIM_ORIGEN],Origen de la Información,[DIM_ORIGEN].[Origen de la Información],,Origen de la Información,3,5.0,[DIM_ORIGEN].[Origen de la Información].[All],[DIM_ORIGEN].[Origen de la Información].[All],,0,False,False,1,,True,1.0,True,True,6,,0.0,1
+SIS_2024,,SIS_2024,[Measures],Measures,[Measures],,Measures,2,2.0,[Measures].[Total],,,0,False,False,1,,True,1.0,True,True,6,,0.0,1
